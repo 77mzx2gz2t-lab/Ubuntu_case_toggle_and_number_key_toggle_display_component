@@ -26,5 +26,6 @@ sudo apt-get install python3-pil.imagetk x11-xserver-utils
 ### 3. 编译可执行文件
 pyinstaller --onefile --windowed --name <"生成的可执行文件名称"> <"可执行文件名称">
 ### 4. 使用编译后的程序
-./dist/capslock-indicator
+./dist/capslock-indicator 
+
 ./dist/numlock-indicator
